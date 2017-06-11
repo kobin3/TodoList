@@ -1,6 +1,6 @@
 # TodoList
 
-Todo List management api on play 2.4 (scala)
+Todo List management on play 2.4 (scala)
 
 ### Prerequisites
 
@@ -16,16 +16,23 @@ sbt run
 If all thing done, you'll see
 
 ```
+.......
+
 --- (Running the application, auto-reloading is enabled) ---
 
 [info] p.c.s.NettyServer - Listening for HTTP on /0:0:0:0:0:0:0:0:9000
 
 (Server started, use Ctrl+D to stop and go back to the console...)
 ```
-Then you can access through browser http://localhost:9000/swagger
+Then you can access through browser http://localhost:9000/swagger (Swagger document)
+
+or you can download document [here](http://128.199.111.214/doc.html)
 
 ### Running the tests
 If you want to test
 ```
 sbt test
 ```
+## Authors
+
+* **Tassanai Khawsuwan**
