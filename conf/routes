@@ -1,0 +1,19 @@
+# Routess
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Swagger - Root Resources Listing
+GET     /swagger.json           controllers.ApiHelpController.getResources
+GET     /swagger                @controllers.Application.swagger
+GET        /assets/*file        controllers.Assets.at(path="/public", file)
+
+
+# Route for Todolist controller
+GET     /todoList/swagger.json      controllers.ApiHelpController.getResource(path = "/todoList")
+GET     /todoList                   controllers.TodoListController.findAllTodoItems
+GET     /todoList/:id               controllers.TodoListController.findTodoItemsById(id: Int)
+POST    /todoList                   controllers.TodoListController.createTodoItem
+PUT     /todoList                   controllers.TodoListController.editTodoItem
+PUT     /todoList/:id/:status       controllers.TodoListController.updateStatus(id: Int, status: String)
+DELETE  /todoList/:id               controllers.TodoListController.deleteTodoItem(id: Int)
+
