@@ -8,7 +8,7 @@ Todo List management on play 2.4 (scala)
 * Install sbt (see http://www.scala-sbt.org/)
 
 ### Installing
-You can build this project by open commnd prompt and type 
+You can build and run this project by open commnd prompt (in the project directory) and type 
 ```
 sbt run
 ```
