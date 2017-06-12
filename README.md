@@ -5,14 +5,15 @@ Todo List management on play 2.4 (scala)
 ### Prerequisites
 
 * You need to have a JDK 1.8 (or later) installed on your machine (see [General Installation Tasks](https://www.playframework.com/documentation/2.4.x/Installing)).
-* sbt (see http://www.scala-sbt.org/)
-* Scala (see https://www.scala-lang.org/download/)
+* Install sbt (see http://www.scala-sbt.org/)
 
 ### Installing
-You can build this project by (It may take a long time in the first build)
+You can build this project by open commnd prompt and type 
 ```
 sbt run
 ```
+(It may take a long time in the first build)
+
 If all thing done, you'll see
 
 ```
